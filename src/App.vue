@@ -70,7 +70,7 @@ async function del(id) {
         placeholder="Add a todo"
       />
       <div @click="add" class="to-button">
-        <span>add todo</span>
+        <span style="user-select: none;cursor: auto;">add todo</span>
       </div>
     </div>
 
@@ -137,7 +137,7 @@ async function del(id) {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ff416c;
+  background:linear-gradient(to right, #ff5078, #ff4b2b);
   color: white;
   cursor: pointer;
   border-radius: 0 20px 20px 0;
